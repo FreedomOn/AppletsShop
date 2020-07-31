@@ -1,0 +1,3 @@
+<!--components/mycpn/m.wxml-->
+<button bindtap="add">+1</button>
+<view>我是自定义组件</view>

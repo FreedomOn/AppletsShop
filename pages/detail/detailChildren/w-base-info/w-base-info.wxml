@@ -1,0 +1,23 @@
+<!--pages/detail/detailChildren/w-base-info/w-good-info.wxml-->
+<!-- <text>pages/detail/detailChildren/w-base-info/w-good-info.wxml</text> -->
+<view class="baseinfo">
+	<view class="title">
+		{{goodsInfo.title}}
+	</view>
+	<view class="priceinfo">
+		<text class="new-price">{{goodsInfo.newPrice}}</text>
+		<text class="old-price">{{goodsInfo.oldPrice}}</text>
+		<text class="discount">{{goodsInfo.discount}}</text>
+	</view>
+	<view class="sellinfo" >
+    <view class='sell-item' wx:for="{{goodsInfo.columns}}"  wx:key="index">{{item}}</view>
+  </view>
+  <view class="service">
+      <view wx:for="{{goodsInfo.services}}" wx:key="index">
+        <view class='service-item'>
+          <image class='icon' src="{{item.icon}}"/>
+          <text class='name'>{{item.name}}</text>
+        </view>
+      </view>
+  </view>
+</view>

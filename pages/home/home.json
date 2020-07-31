@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "w-tab":"/components/w-tab/w-tab",
+
+    "my-sel":"/components/my-sel/my-sel",
+    "my-cpn":"/components/mycpn/m",
+    "my-slot":"/components/my-slot/my-slot",
+    "my-mslot":"/components/my-mslot/my-mslot"
+  }
+}

@@ -1,0 +1,16 @@
+<!--components/w-swiper/w-swiper.wxml-->
+<!-- 封装自定义组件swiper -->
+<swiper class="swiper"
+    circular
+    autoplay
+    interval="3000"
+    duration= "500"
+    indicator-dots
+    indicator-active-color="#ff5777"
+  >
+  <block wx:for="{{list}}" wx:key="index">
+    <swiper-item bindtap = "aa" data-index="{{index}}">
+      <image src="{{item}}" class="swiper-image" mode="widthFix"/>
+    </swiper-item>
+  </block>
+</swiper>

@@ -1,0 +1,11 @@
+<!--components/w-tab/w-tab.wxml-->
+<!-- <text>components/w-tab/w-tab.wxml</text>
+ -->
+ <view class="table">
+    <block wx:for="{{titles}}" wx:key="index">
+      <view class="item  {{currentIndex == index ? 'active' :''}}" 
+      data-index="{{index}}" bindtap="clicktab">
+        <text>   {{item}}</text>
+      </view>
+    </block>
+ </view>

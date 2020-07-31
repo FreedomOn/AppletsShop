@@ -1,0 +1,35 @@
+/* components/w-goodsitem/w-goodsitem.wxss */
+.gooditem{
+  /* position: relative; */
+  text-align: center;
+  color: #333;
+  padding-bottom: 88rpx ;
+}
+.gooditem image{
+  width: 100%;
+ border-radius: 10rpx;
+}
+.descinfo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5rpx;
+}
+.title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+}
+.price{
+  color: red;
+}
+.info .icon{
+  position: relative;
+  top: 4rpx;
+  width: 30rpx;
+  height: 30rpx;
+  padding-left: 6rpx;
+  padding-right: 6rpx ;
+   
+}

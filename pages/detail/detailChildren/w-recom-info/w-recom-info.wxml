@@ -1,0 +1,7 @@
+<!--pages/detail/detailChildren/w-recom-info/w-recom-info.wxml-->
+<view class='recommend'>
+  <view class='header'>商品推荐</view>
+  <view class='content'>
+    <w-goods goods="{{recom}}"/>
+  </view>
+</view>

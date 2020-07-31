@@ -1,0 +1,13 @@
+<!--components/w-goodsitem/w-goodsitem.wxml-->
+<!-- <text>components/w-goodsitem/w-goodsitem.wxml</text> -->
+<view class="gooditem" bindtap="itemClick">
+    <image src="{{item.show.img || item.image || item.img}}" mode="withFix"></image>
+    <view class="descinfo">
+        <view class="title">{{item.title}}</view>
+        <view class="info">
+          <text class="price">¥{{item.price}}</text>
+         <image class="icon" src="/assest/favor.png"></image>
+          <text class="cfav">{{item.cfav}}</text>
+        </view>
+    </view>
+</view>

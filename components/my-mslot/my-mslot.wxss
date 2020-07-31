@@ -1,0 +1,4 @@
+/* components/my-mslot/my-mslot.wxss */
+.slot2{
+  background-color: pink;
+}

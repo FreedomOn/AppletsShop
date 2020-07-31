@@ -1,0 +1,3 @@
+<!--components/my-sel/my-sel.wxml-->
+<!-- 通过home点击修改 组件内得数据 -->
+<view>{{count}}</view>

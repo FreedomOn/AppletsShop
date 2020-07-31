@@ -1,0 +1,19 @@
+/* components/w-tab/w-tab.wxss */
+.table{
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: pink;
+}
+.item{
+  flex: 1;
+  text-align: center;
+}
+.active{
+  color: red;
+  
+}
+.active text{
+  border-bottom: 3px solid red;
+  padding: 18rpx 10rpx;
+}

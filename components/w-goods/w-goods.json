@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-goodsitem":"/components/w-goodsitem/w-goodsitem"
+  }
+}

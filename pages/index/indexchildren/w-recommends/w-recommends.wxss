@@ -1,0 +1,21 @@
+/* pages/index/indexchildren/w-recommends/w-recommends.wxss */
+/* pages/index/index.wxss */
+.recomends{
+  display: flex;
+  margin-top: 40rpx;
+  border-bottom: 16rpx solid #eee;
+  padding-bottom: 30rpx;
+}
+.recommenditem{
+  flex: 1;
+  text-align: center;
+}
+.recommenditem image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.recommenditem view{
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  color: #555;
+}

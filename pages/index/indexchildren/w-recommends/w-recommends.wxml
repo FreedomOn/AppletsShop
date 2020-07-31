@@ -1,0 +1,11 @@
+<!--pages/index/indexchildren/w-recommends/w-recommends.wxml-->
+<!-- <text>pages/index/indexchildren/w-recommends/w-recommends.wxml</text> -->
+<view class="recomends">
+  <block wx:for="{{recommends}}" wx:key="index">
+    <view class="recommenditem" catchtap="showMsg"  data-title="{{item.title}}" 
+    data-sort="{{item.sort}}">
+      <image src="{{item.image}}" bindload='onImageLoad'></image>
+      <view>{{item.title}}</view>
+    </view>
+  </block>
+</view>

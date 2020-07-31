@@ -1,0 +1,16 @@
+<!--components/my-mslot/my-mslot.wxml-->
+<!-- <text>components/my-mslot/my-mslot.wxml</text> -->
+<!-- 多个插槽的使用 -->
+<view>我是多个插槽的开始</view>
+  <view class="slot1">
+    <slot  name="slot1" />
+  </view>
+  <view class="slot2" >
+    <slot name="slot2" />
+  </view>
+  <view class="slot3" >
+    <slot name="slot3" />
+  </view>
+
+<view>我是多个插槽的结尾</view>
+

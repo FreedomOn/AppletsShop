@@ -1,0 +1,6 @@
+<!--pages/index/indexchildren/w-pouple/pouple.wxml-->
+<!-- <text>pages/index/indexchildren/w-pouple/pouple.wxml</text> -->
+<view class="pouple" bindtap="showMessage">
+  <!-- mode="withFix"  保存图片的宽高比 -->
+  <image src="/assest/recommend_bg.jpg" mode="withFix"></image>
+</view>

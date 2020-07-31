@@ -1,0 +1,5 @@
+<!--components/my-slot/my-slot.wxml-->
+<!-- <text>components/my-slot/my-slot.wxml</text> -->
+<view>我是组件的header</view>
+<slot />
+<view>我的子组件的footer</view>

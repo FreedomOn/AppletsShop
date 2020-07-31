@@ -1,0 +1,15 @@
+/* pages/detail/detail.wxss */
+.detail{
+ 
+  height: 80%;
+}
+.d-swiper swiper{
+  height: 800rpx;
+}
+.bottombar{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

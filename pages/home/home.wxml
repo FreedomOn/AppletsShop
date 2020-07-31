@@ -1,0 +1,38 @@
+<!--pages/home/home.wxml-->
+<w-tab titles="{{arr}}" bindtabclick="handleTableClick" />
+<!-- 一些基础得练习 -->
+<!-- <text>hello word</text>
+<view> 啦啦啦啦</view> -->
+<!-- <view wx:for="{{list}}">
+  {{item.city}}
+</view> -->
+<!--  -->
+<view>点击home按钮修改子组件内的数据</view>
+<my-sel id="mysel" />
+<button bindtap="handlecpnData">home改变组件内的数据+1</button>
+<!-- 点击子组件的按钮修改home中的数据 -->
+<view>点击子组件的按钮修改home中的数据 </view>
+<view>{{count}}</view>
+<my-cpn bindadd="handleAdd" />
+<!-- 单个插槽的使用 -->
+<view>-------------------------------</view>
+<view>插槽slot的使用</view>
+<my-slot>
+  <button>我是插入的按钮</button>
+</my-slot>
+<my-slot>
+  <text>我是插入的文本</text>
+</my-slot>
+<view>-----------------------------------</view>
+<!-- 多个插槽的使用  
+1.  给每一个插槽起一个名字：name属性
+2.必须在component对象添加一个选项options
+    options:{
+      multipleSlots:true
+    },
+-->
+<my-mslot>
+  <button size="mini" slot="slot2">我的插入的按钮</button>
+  <slider slot="slot1"></slider>
+  <text slot="slot3">啦啦啦啦啦</text>
+</my-mslot>

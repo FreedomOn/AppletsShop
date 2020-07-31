@@ -1,0 +1,31 @@
+/* pages/image/image.wxss */
+.content{
+  background-color: aqua;
+  white-space: nowrap;
+}
+.item{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: blue;
+  margin: 10rpx;
+  display: inline-block;
+}
+.box{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: blue;
+}
+.active{
+  background-color: sandybrown;
+}
+.outer{
+  width: 400rpx;
+  height: 400rpx;
+  background-color: palegreen;
+
+}
+.inter{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: palevioletred;
+}

@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+<!-- 展示轮播图 -->
+<w-swiper list="{{banner}}" class="i-swiper"></w-swiper>
+<!-- 推荐数据的展示 -->
+<w-recommend recommends="{{recomends}}" bind:imageLoad="onImageLoad"></w-recommend>
+<!-- 展示本周流行 这个是一个图片 真的就flex布局 -->
+<w-pouple></w-pouple>
+<!-- 工具栏 -->
+<w-tab titles="{{tab}}" bindtabclick="handeleTabClick" id="tab" class="{{isfixed ? 'fixed' :''}}"></w-tab>
+<w-tab titles="{{tab}}" wx:if="{{isfixed}}"></w-tab>
+<!-- 展示商品数据 -->
+<w-goods goods="{{goods[currentType].list}}"></w-goods>
+<!-- 回到顶部 -->
+<w-back-top wx:if="{{shoubacktop}}"></w-back-top>

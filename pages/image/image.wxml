@@ -1,0 +1,26 @@
+<!--pages/image/image.wxml-->
+<!-- <text>pages/image/image.wxml</text>】
+<image src="/assest/111.jpg"></image>
+<image src="/assest/34fff8f8113608fba7d0915901d1233.jpg"></image>
+
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+show-menu-by-longpress></image>
+<button bindtap="handle">选中图片</button>
+<image src="{{imagePath}}"></image> -->
+
+<!-- <scroll-view class="content" scoll-x>
+    <view class="item"  wx:for="{{10}}" wx:key="index"> {{item}}</view>
+</scroll-view> -->
+<view>{{time}}</view>
+<button bindtap="aaa">切换背景</button>
+<view class="box {{isActive?'active':''}}"></view>
+<!-- <block wx:for="{{arr}}">
+    <view wx:for="{{item}}"> {{item}} {{index}}</view>
+  
+</block> -->
+<view class="outer" bindtap="outer"> 
+    <view class="inter" catchtap="inter">
+    </view>
+</view>
+<view>{{count}}</view>
+<my bindadd="addcount"/>

@@ -1,0 +1,21 @@
+<!--pages/detail/detailChildren/w-bottom-bar/w-bottom-bar.wxml-->
+<view class="bar">
+  <view class="barleft">
+    <view class="leftitem">
+      <image src="/assest/service.png"></image>
+      <text>客服</text>
+    </view>
+    <view class="leftitem">
+      <image src="/assest/shop.png"></image>
+      <text>店铺</text>
+    </view>
+    <view class="leftitem">
+      <image src="/assest/collect.png"></image>
+      <text>收藏</text>
+    </view>
+  </view>
+  <view class="barright">
+    <view class="cart" bindtap='onAddCart'>加入购物车</view>
+    <view class="buy">购买</view>
+  </view>
+</view>

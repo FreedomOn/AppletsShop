@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "w-swiper":"/components/w-swiper/w-swiper",
+    "w-bottom-bar":"/pages/detail/detailChildren/w-bottom-bar/w-bottom-bar",
+    "w-good-info":"/pages/detail/detailChildren/w-base-info/w-base-info",
+    "w-shop-info":"/pages/detail/detailChildren/w-shop-info/w-shop-info",
+    "w-detail-info":"/pages/detail/detailChildren/w-detail-info/w-detail-info",
+    "w-param-info":"/pages/detail/detailChildren/w-param-info/w-param-info",
+    "w-comment-info":"/pages/detail/detailChildren/w-comment-info/w-comment-info",
+    "w-recom-info":"/pages/detail/detailChildren/w-recom-info/w-recom-info"
+  },
+  "navigationBarTitleText": "商品详情"
+}

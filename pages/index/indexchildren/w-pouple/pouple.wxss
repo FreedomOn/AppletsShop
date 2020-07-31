@@ -1,0 +1,4 @@
+/* pages/index/indexchildren/w-pouple/pouple.wxss */
+.pouple image{
+  width: 100%;
+}
