@@ -6,3 +6,21 @@ export function getCategory(){
     url: baseURL +  '/category'
   })
 }
+export function getSubcategory(maitKey) {
+  return request({
+    url:  baseURL +  '/subcategory',
+    data: {
+      maitKey
+    }
+  })
+}
+
+export function getCategoryDetail(miniWallkey, type) {
+  return request({
+    url:  baseURL +  '/subcategory/detail',
+    data: {
+      miniWallkey,
+      type
+    }
+  })
+}
