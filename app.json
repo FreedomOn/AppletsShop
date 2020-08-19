@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/cart/cart",
+    "pages/profile/profile",
     "pages/index/index",
     "pages/category/category",
-   
-    "pages/profile/profile",
+    
+    "pages/cart/cart",
     "pages/detail/detail"
   ],
   "window": {
